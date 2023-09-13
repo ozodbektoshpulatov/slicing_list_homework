@@ -1,4 +1,5 @@
 def main(list1):
+
     """
     A list of several elements is given. Reverse this list.
     Args:
@@ -6,4 +7,6 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return
+    return list1[::-1]
+print(main("123456789"))
+    
