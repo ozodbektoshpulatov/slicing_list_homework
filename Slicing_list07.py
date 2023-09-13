@@ -8,4 +8,4 @@ def main(list1,n):
         list: return answer.
     """
     return list1[::n]
-print(main("123456789",9))
+print(main("123456789",3))
