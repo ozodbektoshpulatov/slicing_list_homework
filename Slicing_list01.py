@@ -1,4 +1,5 @@
 def main(numbers):
+    
     """
     A list called numbers is given. Return the items in the odd index.
     Args:
@@ -6,4 +7,7 @@ def main(numbers):
     Returns:
         list: return answer.
     """
-    return
+    return numbers[1: :2]
+print(main("123456789"))
+    
+    
